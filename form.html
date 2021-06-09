@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+<link rel="stylesheet" href="C:\Users\LENOVO\Desktop\WEBDEV\css\form.css">
+</head>
+<body>
+  
+    
+<h1 align=center class="PaymentGatewayHeading">
+Payment Gateway</h1>
+
+
+<fieldset>
+<!-- Creating form -->
+<form>
+
+
+
+
+    <!-- Using h1 tag for heading [personal info] -->
+
+    <h2 align=left class="personalinfo">
+        Personal Info! *Required
+
+    </h1>
+     <h3 align=center>Name: <input type="text" name="Name" required></h3>
+     
+
+
+     <!-- ---Gender---- -->
+
+
+     <h3 align=center>Gender 
+    <select name="" id="" name="Gender">
+
+        <option value="">Gender</option>
+        <option value="">Male</option>
+        <option value="">Female</option>
+        <option value="">Trans</option>
+        <option value="">Rather not to say.</option>
+    </select> 
+    
+    </h3>
+    
+    
+    <!-- ---Address---- -->
+    <h3 align=center>Address: <textarea name="Address" id="" cols="30" rows="10" required></textarea></h3>
+    
+    
+    
+    <!-- ---Pincode---- -->
+
+    <h3 align=center> Pincode:
+        <input type="number" name="Pincode" required>
+    </h3>
+
+    
+    <!-- ---EMail---- -->
+    <h3 align=center>Email: <input type="email" name="Email" required></h3>
+
+</fieldset>
+
+    <br>
+    <br>
+    <fieldset>
+    <h2 align=left class="personalinfo">
+        Payment Info Required!
+
+
+        <!-- ---CardInfo---- -->
+        <h3 align=center>
+            CardType: <select name="Cardtype" id="" required>
+            <option value="">Select card </option>
+            <option value="">Rupay</option>
+            <option value="">Visa</option>
+            <option value="">Fampay</option>
+
+            </select>
+        </h3>
+        <!-- ---CardNumber---- -->
+
+        <h3 align=center>CardNumber:
+            <input type="number" name="CardNumber" required>
+        </h3>
+
+        <!-- ---Epir.Date---- -->
+        <h3 align=center>
+            Expiration Date: <input type="date" name="Exp Date" required>
+        </h3>
+
+        <!-- ---CVV---- -->
+        <h3 align=center>
+            CVV: <input type="password" name="CVV" required>
+        </h3>
+</fieldset>
+
+
+<!-- Submit / PayNow button to send dat into server -->
+
+<h3 class="PayNowbutton" align=center>
+    <input size="100" type="submit" value="PayNow">
+</h3>
+
+</form>
+
+</body>
+</html>

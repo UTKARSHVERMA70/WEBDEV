@@ -1,0 +1,25 @@
+/* Styling 1st headind on top */
+.PaymentGatewayHeading{
+
+    color: royalblue;
+    background-color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Styling Personal Info - Heading */
+.personalinfo{
+    color: teal;
+    background-color: whitesmoke;
+}
+
+
+/* Styling Paynow button */
+.PayNowbutton{
+
+    color: yellow;
+    padding: 10px;
+    background-color: yellow;
+    border: whitesmoke;
+    
+}
